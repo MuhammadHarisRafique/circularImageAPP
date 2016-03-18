@@ -12,6 +12,9 @@
 		04991CF91C940C0100533405 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04991CF71C940C0100533405 /* Main.storyboard */; };
 		04991CFB1C940C0100533405 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04991CFA1C940C0100533405 /* Assets.xcassets */; };
 		04991CFE1C940C0100533405 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04991CFC1C940C0100533405 /* LaunchScreen.storyboard */; };
+		04991D061C94173600533405 /* ViewController++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04991D051C94173600533405 /* ViewController++.swift */; };
+		04991D0D1C94252800533405 /* a.png in Resources */ = {isa = PBXBuildFile; fileRef = 04991D0B1C94252800533405 /* a.png */; };
+		04991D0E1C94252800533405 /* b.png in Resources */ = {isa = PBXBuildFile; fileRef = 04991D0C1C94252800533405 /* b.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		04991CFA1C940C0100533405 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04991CFD1C940C0100533405 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04991CFF1C940C0100533405 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04991D051C94173600533405 /* ViewController++.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController++.swift"; sourceTree = "<group>"; };
+		04991D0B1C94252800533405 /* a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = a.png; sourceTree = "<group>"; };
+		04991D0C1C94252800533405 /* b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = b.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,9 +61,12 @@
 			isa = PBXGroup;
 			children = (
 				04991CF31C940C0100533405 /* AppDelegate.swift */,
+				04991D051C94173600533405 /* ViewController++.swift */,
 				04991CF51C940C0100533405 /* ViewController.swift */,
 				04991CF71C940C0100533405 /* Main.storyboard */,
 				04991CFA1C940C0100533405 /* Assets.xcassets */,
+				04991D0B1C94252800533405 /* a.png */,
+				04991D0C1C94252800533405 /* b.png */,
 				04991CFC1C940C0100533405 /* LaunchScreen.storyboard */,
 				04991CFF1C940C0100533405 /* Info.plist */,
 			);
@@ -123,6 +132,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				04991CFE1C940C0100533405 /* LaunchScreen.storyboard in Resources */,
+				04991D0E1C94252800533405 /* b.png in Resources */,
+				04991D0D1C94252800533405 /* a.png in Resources */,
 				04991CFB1C940C0100533405 /* Assets.xcassets in Resources */,
 				04991CF91C940C0100533405 /* Main.storyboard in Resources */,
 			);
@@ -137,6 +148,7 @@
 			files = (
 				04991CF61C940C0100533405 /* ViewController.swift in Sources */,
 				04991CF41C940C0100533405 /* AppDelegate.swift in Sources */,
+				04991D061C94173600533405 /* ViewController++.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +296,7 @@
 				04991D041C940C0100533405 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
